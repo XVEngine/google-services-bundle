@@ -1,0 +1,21 @@
+{
+    "name": "xvengine/google-services-bundle",
+    "description": "Google services Bundle",
+	"type" : "xvengine-bundle",
+    "authors": [
+        {
+            "name": "Krzysztof Bednarczyk",
+            "email": "admin@bordeux.net",
+            "homepage": "http://bednarczyk.me"
+        }
+    ],
+    "require": {
+		"xvengine/core": "1.*"
+	},
+    "autoload": {
+        "psr-0": {
+            "XVEngine\\Bundle\\GoogleServicesBundle" : ""
+        }
+    },
+	"target-dir": "XVEngine/Bundle/GoogleServicesBundle"
+}
